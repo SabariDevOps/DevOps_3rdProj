@@ -1,10 +1,10 @@
 - hosts: all
   tasks:
    - name: stop container
-     shell: docker container stop dockeransible
+     shell: docker container stop dockerandansible
    - name: remove container
-     shell: docker container rm dockeransible
+     shell: docker container rm dockerandansible
    - name: remove docker image
-     shell: docker image rm -f sabaridelfi/docker-webapp3
+     shell: docker image rm -f sabaridelfi/dockerandwebapp3
    - name: create new container
-     shell: docker run -itd --name dockeransible -p 9000:80 sabaridelfi/docker-webapp3
+     shell: docker run -itd --name dockerandansible -p 9000:80 sabaridelfi/dockerandwebapp3
