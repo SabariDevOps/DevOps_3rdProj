@@ -1,5 +1,5 @@
 
- FROM  centos:latest
+ FROM  centos:7
  MAINTAINER rsabarinathan25@gmail.com
  RUN apt install -y httpd \
  zip\
